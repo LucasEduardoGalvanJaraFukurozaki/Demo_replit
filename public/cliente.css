@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(87, 87, 87);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(34, 34, 34);
+    padding: 20px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#main-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 97%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+.alinhaBtns {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+footer{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+body{
+    position: relative;
+}
+.cabecalho h2{
+    color: white;
+}
